@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAS;EACR,WAAW,EAAE,WAAW;;ACCzB,aAAa;EACZ,gBAAgB,ECAP,OAAO;EDChB,UAAU,EAAE,YAAY",
+"sources": ["../sass/_base.sass","../sass/_top-block.sass","../sass/_vars.sass"],
+"names": [],
+"file": "main.css"
+}

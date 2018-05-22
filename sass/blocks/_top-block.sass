@@ -1,0 +1,197 @@
+.container-top
+	height: 100%
+
+div.top-block 
+	height: 642px
+	width: 	auto
+	position: relative
+	background-image: $small-clouds-img, $back-clouds-img, $colors-bar-img, $icons-texture-img 
+	background-position: top 50px center, center bottom 20px, center top, center top
+	background-repeat: no-repeat, repeat-x, repeat-x, repeat  
+	.front-clouds
+		height: 134px
+		width: 100%
+		position: absolute	
+		bottom: 0px
+		background-image: $front-clouds-img
+		background-position: center bottom
+		background-repeat:  repeat-x
+		z-index: 100
+
+	
+// BLOCK 1 STYLES
+.intro-content
+	padding: 0 15px 40px 0
+
+.logo
+	background-image: $logo-img
+	background-repeat: no-repeat
+	height: 80px
+	margin-bottom: 10px
+
+	.logo-text 
+		font-size: 60px
+		font-family: $sans-bold
+		color: $logo-text-color
+		padding-left: 92px
+		padding-top: 10px
+		text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.18), 1px  1px 0px   #46A6AF, -1px -1px 0px   #46A6AF
+		
+.intro-content-caption1
+	font-size: 24px
+	color: $title-blue
+	margin-bottom: 16px
+	text-align: right
+
+	.app_template
+		font-family: $sans-bold
+		display: block
+
+.intro-content-description 
+	font-size: 14px
+	color: $white
+	text-align: right
+	line-height: 1.5
+
+.intro-content-caption2 
+	font-family: $sans-bold
+	font-size: 16px
+	color: $white
+	margin-top: 29px
+	margin-bottom: 29px
+
+button.subscribe-btn
+	width: 120px
+	height: 46px
+	font-size: 16px
+	margin-left: 5px
+	color: $dark-grey
+	font-family: $sans-bold
+	background: $subscribe-btn-color
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1)
+	
+	
+.email-input
+	width: 172px
+	height: 46px
+	opacity: 0.86
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px 3px 3px 0px rgba(0, 0, 0, 0.18)
+	&[placeholder]  
+		font-size: 12px
+		width: 172px      
+	&::-moz-placeholder 
+		font-size: 12px
+		width: 172px   
+	&:-moz-placeholder 
+		font-size: 12px
+		width: 172px   
+
+
+// BLOCK 2 STYLES
+.iphone-box
+	text-align: center
+
+.iphone
+	margin-top: 42px
+	
+.pointer-block
+	height: 195px
+	width: 326px
+	position: absolute
+	bottom: 283px
+	left: 176px
+	background-image: $pointer-block-img
+
+	.play
+		color: $dark-grey
+		text-align: center
+		vertical-align: middle
+		width: 180px
+		height: 180px
+		position: absolute
+		bottom: 16px
+		left: 147px
+		border-radius: 90px
+		padding-top: 90px
+		font-size: 16px
+
+	.play-text
+		line-height: 1.5
+		font-size: 18px
+		display: block
+		font-weight: bold
+		text-align: center
+		vertical-align: middle
+
+
+// BLOCK 3 STYLES
+.buttons-group-1
+	margin-bottom: 173px
+
+.gta-btn
+	width: 174px
+	background: $gta-btn-color
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.35)
+	padding: 0
+	font-weight: bold
+	color: $dark-grey
+	position: relative
+	padding: 9px 0 11px 40px
+	&::before
+		content: ""
+		height: 46px
+		width: 46px
+		background-image: $smartphone-icon
+		background-repeat: no-repeat
+		box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.35) 
+		background-color: rgba(0, 0, 0, 0.059)
+		background-position: center center
+		border-right: 1px solid
+		border-color: #4cb3bd
+		position: absolute
+		bottom: 0px
+		left: 0px
+		border-radius: 5px 0 0 5px
+
+.fb-like-btn
+	width: 50px
+	background:	$fb-like-btn-color
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.16)
+	position: relative
+	margin: 0 6px
+	&::before
+		content: ""
+		width: 50px
+		height: 48px		
+		background-image: $fb-thumbup-icon
+		background-repeat: no-repeat
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) 
+		background-position: center center
+		position: absolute
+		bottom: 0px
+		left: 0px
+		border: none
+
+
+.twitter-btn
+	width: 50px
+	background:	$twitter-btn-color
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.35)
+	position: relative
+	&::before
+		content: ""
+		width: 50px
+		height: 48px		
+		background-image: $twitter-icon
+		background-repeat: no-repeat
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) 
+		background-position: center center
+		position: absolute
+		bottom: 0px
+		left: 0px
+		border: none
+
+
+
+	
+
